@@ -15,7 +15,7 @@ public class NestedIfBlocks {
      * Code smells:
      * - The combined use of if and if-else statements in a nested fashion.
      * - Return statements scattered at different levels within the nested blocks
-     * - Null return value is specific cases
+     * - Null return value in specific cases
      */
     public String before(String someInput, boolean another) {
         if (someInput == null) {
