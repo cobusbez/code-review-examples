@@ -5,7 +5,6 @@ import java.util.Optional;
 /**
  * Say we have an object which handles a file name, but the file name may contain invalid characters.
  * Cleaning up the file name before assigning it would be a good idea.
- *
  */
 public class AvoidingDuplicatedLogicInPOJOS {
     private String fileName;

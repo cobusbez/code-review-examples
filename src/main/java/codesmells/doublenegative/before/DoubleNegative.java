@@ -1,4 +1,4 @@
-package codesmells.doublenegative;
+package codesmells.doublenegative.before;
 
 public class DoubleNegative {
     public InvocationResult<PathologyReport> validate() {
