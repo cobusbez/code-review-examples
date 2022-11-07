@@ -16,6 +16,8 @@ A library of simple and practical code review examples in Java
 - Use descriptive names for methods
 - Single responsibility principle
 - Code duplication
+#### Naming conventions
+- Use descriptive names for variable. `FirstName` instead of `name`, `holidayDate` instead of `date`
 #### Scalability
 - Avoid multiple requests for the same data
 - Caching frequently accessed data
@@ -25,6 +27,11 @@ A library of simple and practical code review examples in Java
 - Readability of code
 - Duplication of code and business logic
 - Avoid introducing unnecessary concepts
+#### Exception handling
+- Do no expose unnecessary information in exception logs
+- Log record IDs for troubleshooting
+- Handle exceptions at the appropriate level
+- Only log exceptions at the last possible minute (before failing or returning to the client)
 #### Performance
 - Entity mappings with correct initialisation strategies
 - Use correct JPA fetch modes
